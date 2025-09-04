@@ -1,17 +1,20 @@
-# ========== Unity-generated folders to ignore ==========
+# ========== Unity .gitignore ==========
+
+# This ignores all Unity cache and build files
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-[Mm]emoryCaptures/
+MemoryCaptures/
+UserSettings/
 
-# ========== OS-specific files ==========
+# OS-generated files
 .DS_Store
 Thumbs.db
 
-# ========== Visual Studio / JetBrains Rider ==========
+# Visual Studio / JetBrains / VS Code
 *.csproj
 *.unityproj
 *.sln
@@ -23,36 +26,14 @@ Thumbs.db
 *.booproj
 *.svd
 *.pdb
-*.mdb
-*.opendb
-*.VC.db
 .vscode/
 
-# ========== Unity Cloud Build ==========
-.cloud/
-
-# ========== Crashlytics ==========
-crashlytics-build.properties
-
-# ========== Plastic SCM ==========
-.plastic/
-ignore.conf
-plastic.workspace
-plastic.selector
-
-# ========== Build artifacts ==========
+# Unity cache artifacts
 *.apk
 *.aab
-*.exe
-*.app
-*.xcodeproj
-*.xcworkspace
-*.xcuserstate
-*.zip
-*.tar.gz
-*.tar
-*.7z
-*.rar
+*.db
+*.dylib
+*.so
+*.dll
 
-# ========== Logs ==========
-*.log
+# ==============================
